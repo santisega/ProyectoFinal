@@ -1,0 +1,192 @@
+//CartTitles
+.cartTitles{
+    margin-top: 50px;
+    h2{
+        font-weight: 700;
+        font-size: 24px;
+        color: $black;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 5px;
+        color: $gray;
+    }
+}
+
+.horizontalLine{
+    margin-top: 15px;
+    width: 80%;
+    height: 1.5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $gray;
+}
+
+
+//CartItem
+.cartItem{
+    background-color: $lightGray;
+    border: none;
+    border-radius: 8px;
+    margin: 23px 60px;
+    .cartItemTitle {
+        width:45%;
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: $black;
+    }
+    .cartItemCant {
+        padding: 5px;
+        margin: 10px 18px 10px 0px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        color: $gray;
+        text-align: center;
+        width: 80px;
+        border: solid 1px $black;
+        background-color: transparent;
+    }
+    .imgCartItem{
+        position: relative;
+        width: 150px;
+        height: 140px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin: 0px;  
+        }
+    
+}   
+
+.cantPriceContainer{
+    align-items: end;
+}
+
+.priceLabel {
+    font-weight: 500;
+    font-size: 14px;
+    color: $gray; 
+    text-align: right;
+    border: none;  
+}
+
+.cartItemPrice{
+    margin-right: 10px;
+    width: 80px;
+    padding: 3px 8px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: $gray; 
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    border: solid 1px $black;
+}
+
+.inputsContainer{
+    width: 100%;
+    margin: 20px;  
+}
+
+
+//cartCardButtons
+.closeCartItem{
+    position: absolute;
+    right: 65px;
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    .iconClose{
+        height: 16px;
+        font-size:18px;
+        padding:0;
+        &:hover {
+            transform: scale(115%);
+        }
+}
+}
+
+
+//Checkout
+.totalCheckoutContainer{
+padding: 30px 60px 0px 60px;
+}
+
+
+//TotalPrice
+.totalPriceLabel {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000; 
+    text-align: right;
+    border: none; 
+}
+
+.totalPriceInput {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000; 
+    text-align: right;
+    border: none;
+}
+
+
+//TotalItems
+.itemsContainer{
+    justify-content: right;
+}
+
+.itemsLabel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: $gray; 
+}
+
+.itemsInput {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: $gray; 
+    text-align: right;
+    border: none;
+}
+
+.totalItemsContainer{
+    justify-content: right;
+    margin-top: 20px;
+}
+
+
+//CheckoutButton
+.checkoutContainer{
+    justify-content: right;
+    margin: 23px 60px;
+}
+
+.checkoutButton{
+    width:  130px;
+    height:49px;
+    padding:15px 30px;
+    border:none;
+    background-color: $red;
+    border-radius: 25px;
+    color: $lightGray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    transition: .3s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        background-color: black;
+        transform: scale(105%);
+    }
+}
+

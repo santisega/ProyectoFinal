@@ -1,0 +1,26 @@
+//global settings
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-weight: 400;
+    font-size: 62.5%;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+
